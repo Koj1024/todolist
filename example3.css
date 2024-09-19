@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    height: 100vh; /* 전체 화면 높이 사용 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* 배경색 */
+}
+
+.hidden {
+    background-color: black;
+    color: black; 
+}
+.unhidden {
+    background-color: white;
+    color: white; 
+} /* hidden을 푸는 용도로 unhidden을 만들었으나, 그냥 hidden을 remove하면 해결되는 부분이라 안씀! */
+.container {
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
